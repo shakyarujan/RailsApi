@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: RailsApi_production
-  username: RailsApi
-  password: <%= ENV['RAILSAPI_DATABASE_PASSWORD'] %>
+  username: username
+  password: password
